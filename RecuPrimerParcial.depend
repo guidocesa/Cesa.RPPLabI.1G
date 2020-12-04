@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1607040053 source:d:\proyectos\c\recuprimerparcial\cliente.c
+	"cliente.h"
+
+1607038475 source:d:\proyectos\c\recuprimerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"controller.h"
+	"cliente.h"
+	"operador.h"
+	"alquiler.h"
+
+1607033466 d:\proyectos\c\recuprimerparcial\controller.h
+
+1607040033 d:\proyectos\c\recuprimerparcial\cliente.h
+
+1607036239 source:d:\proyectos\c\recuprimerparcial\alquiler.c
+
+1607043822 source:d:\proyectos\c\recuprimerparcial\controller.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"operador.h"
+	"alquiler.h"
+
+1607040067 source:d:\proyectos\c\recuprimerparcial\operador.c
+	"operador.h"
+
+1607042413 d:\proyectos\c\recuprimerparcial\operador.h
+
+1607038440 d:\proyectos\c\recuprimerparcial\alquiler.h
+
