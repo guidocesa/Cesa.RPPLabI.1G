@@ -286,6 +286,7 @@ void listarAlquileres(eAlquiler alquileres[], int largoAlquileres, eCliente clie
     while(!alquileres[i].estaVacio)
     {
         imprimirAlquiler(alquileres[i], clientes, largoClientes, operadores, largoOperadores);
+        i++;
     }
 }
 
