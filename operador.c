@@ -11,5 +11,6 @@ void obtenerNombreOperador(char* nombreOperador,eOperador operadores[],int largo
             strcpy(nombreOperador, operadores[i].nombre);
             encontrado = 1;
         }
+        i++;
     }
 }

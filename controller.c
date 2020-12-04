@@ -281,13 +281,14 @@ void imprimirAlquiler(eAlquiler alquiler,  eCliente clientes[], int largoCliente
 void listarAlquileres(eAlquiler alquileres[], int largoAlquileres, eCliente clientes[], int largoClientes, eOperador operadores[], int largoOperadores)
 {
     printf("ID\tCLIENTE\t\tEQUIPO\t\tTIEMPO EST.\t\tOPERADOR\tESTADO\n");
-    printf("----------------------------------------------------------------");
+    printf("----------------------------------------------------------------\n");
     int i =0;
     while(!alquileres[i].estaVacio)
     {
         imprimirAlquiler(alquileres[i], clientes, largoClientes, operadores, largoOperadores);
         i++;
     }
+    system("pause");
 }
 
 int finalizarAlquiler(eCliente clientes[], int largoClientes, eAlquiler alquileres[], int largoAlquileres, int idAlquileres, eOperador operadores[], int largoOperadores)
